@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /clusters/
+Disallow: /Download/
+Disallow: /images/
+Disallow: /include/
+Disallow: /info/

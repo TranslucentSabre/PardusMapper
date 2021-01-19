@@ -1,0 +1,44 @@
+div.bar-wrap {
+	position: relative;
+	width: 100px;
+}
+div.bar-bar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+}
+div.bar-text {
+	text-align: center;
+	color:#fff;
+	opacity:0.82;
+	font-weight:bold;
+	text-shadow:0px -1px 2px #1B332F,0px 1px 2px #1B332F,1px 0px 3px #1B332F,-1px 0px 3px #1B332F;
+	position: relative;
+	width: 100px;
+}
+#resource_body {
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+#resource_body table {
+	font-size: 10px;
+}
+#resource_list {
+	position:fixed;
+	right:10px;
+	z-index:0;
+}
+#details {
+	position:fixed;
+	z-index:50;
+}
+.res {
+	height:16px;
+	width:16px;
+}
+#resource_table .symbol {
+	font-size: 14px;
+	color: darkred;
+}

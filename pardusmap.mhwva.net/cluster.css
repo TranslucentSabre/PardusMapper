@@ -1,0 +1,71 @@
+/* Cluster Map Info for sector links*/
+#clusterMapTable a.slink {
+	display:table-cell;
+	color:#FFF9E5;
+	font-size:10pt;
+	width:68px;
+	height:66px;
+	vertical-align:middle;
+	text-decoration:none;
+}
+/*c1*/
+#clusterMapTable td.fsh { background-color:#390D75;}
+#clusterMapTable td.fsh:hover { background-color:#59269D; cursor:pointer;}
+
+/*c2*/
+#clusterMapTable td.fhc { background-color:#064498;}
+#clusterMapTable td.fhc:hover { background-color:#2266C3; cursor:pointer;}
+
+/*c3*/
+#clusterMapTable td.prs { background-color:#464646; }
+#clusterMapTable td.prs:hover { background-color:#707070; cursor:pointer; }
+
+/*c4*/
+#clusterMapTable td.esc { background-color:#7C1906; }
+#clusterMapTable td.esc:hover { background-color:#A5341E; cursor:pointer; }
+
+/*c5*/
+#clusterMapTable td.pc { background-color:#00ff00; }
+#clusterMapTable td.pc:hover { background-color:#3333ff; cursor:pointer;}
+
+/*c6*/
+#clusterMapTable td.urc { background-color:#8A8C00; }
+#clusterMapTable td.urc:hover { background-color:#B5B818; cursor:pointer; }
+
+/*c7*/
+#clusterMapTable td.puc { background-color:#FFF0A9;}
+#clusterMapTable td.puc:hover { background-color:#FFDD55; cursor:pointer;}
+
+/*c9*/
+#clusterMapTable td.ekc { background-color:#4E0602; }
+#clusterMapTable td.ekc:hover { background-color:#7A1C18; cursor:pointer;}
+
+/*c11*/
+#clusterMapTable td.ukc { background-color:#A76E0B; }
+#clusterMapTable td.ukc:hover { background-color:#D69524; cursor:pointer; }
+
+/*c12*/
+#clusterMapTable td.pec { background-color:#FFCBCC;}
+#clusterMapTable td.pec:hover { background-color:#FF5559; cursor:pointer;}
+
+/*c13*/
+#clusterMapTable td.neu { background-color:#6a6a6a; }
+#clusterMapTable td.neu:hover { background-color:#8E8E8E; cursor:pointer; }
+
+/*c14*/
+#clusterMapTable td.frc { background-color:#0B4D5B ;}
+#clusterMapTable td.frc:hover { background-color:#247080; cursor:pointer;}
+
+/*c15*/
+#clusterMapTable td.pfc { background-color:#C1EAFF;}
+#clusterMapTable td.pfc:hover { background-color:#55C9FF; cursor:pointer;}
+
+/*c17*/
+#clusterMapTable td.ews { background-color:#6D1927; }
+#clusterMapTable td.ews:hover { background-color:#943444; cursor:pointer; }
+
+/*c18*/
+#clusterMapTable td.unr { background-color:#845D2E; }
+#clusterMapTable td.unr:hover { background-color:#AE824C; cursor:pointer;}
+
+#clusterMapTable td.pfc a, #clusterMapTable td.pec a, #clusterMapTable td.puc a, #clusterMapTable td.pc a {color:#222222;}

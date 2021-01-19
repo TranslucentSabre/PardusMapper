@@ -1,0 +1,32 @@
+#npc_body {
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+#npc_body table {
+	font-size: 10px;
+}
+#npc_list {
+	position:absolute;
+	top:0px;
+	right:10px;
+	z-index:0;
+}
+#details {
+	position:fixed;
+	right:0px;
+	z-index:50;
+}
+#npc_table img {
+	width: 48px;
+	height: 48px;
+	border: 0;
+}
+#npc_table img .cloaked {
+	opacity: 0.5;
+	filter:alpha(opacity=50);	
+}
+#npc_table .symbol {
+	font-size: 14px;
+	color: darkred;
+}

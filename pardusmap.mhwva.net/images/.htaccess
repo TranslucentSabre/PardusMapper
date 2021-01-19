@@ -1,0 +1,7 @@
+RewriteEngine on
+
+RewriteCond %{HTTP_REFERER} !^$
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?pardusmap.mhwva.net [NC]
+RewriteCond %{HTTP_REFERER} !^http:(s)?//(www\.)?pardusmap.nfshost.com [NC]
+RewriteCond %{HTTP_REFERER} !^http:(s)?//(www\.)?(Orion|Artemis|Pegasus).pardus.at/messageframe.php [NC]
+RewriteRule .*\.(jpg|jpeg|gif|bmp|png)$ - [NC,F,L]
